@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Todolist</title>
+</head>
+
+<body>
+    <div id="container">
+        <h1 class="titulo">Todolist</h1>
+        <form class="container__form">
+            <textarea type="text" placeholder="Introduce una tarea" id="inputText" maxlength="200" class="inputText"></textarea>
+            <div class="container__subform">
+                <div class="container__options">Opciones avanzadas
+                    <span class="container__options-flecha">&#9660;</span>
+                </div>
+                <p id="contador" class="contador">0/200</p>
+            </div>
+        </form>
+        <h2 class="subtitulo">Lista de tareas</h2>
+        <div id="allList" class="allList">
+
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
